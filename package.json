@@ -1,0 +1,67 @@
+{
+  "name": "react-combokeys",
+  "version": "0.1.0",
+  "description": "Bind to keyboard shortcuts in React.",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "es",
+    "lib",
+    "umd"
+  ],
+  "repository": "https://github.com/dashed/react-combokeys",
+  "author": {
+    "name": "Alberto Leal",
+    "email": "mailforalberto@gmail.com",
+    "url": "github.com/dashed"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "15.x || ^16.0.0-rc"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.7.1",
+    "eslint-plugin-react": "^7.3.0",
+    "nwb": "^0.18.10",
+    "prettier": "^1.7.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "keywords": [
+    "react",
+    "combokeys",
+    "keys",
+    "keyboard",
+    "shortcuts",
+    "shortcut",
+    "react-combokeys"
+  ],
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "env": {
+      "browser": true,
+      "node": true,
+      "mocha": true
+    },
+    "plugins": [
+      "react"
+    ],
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended"
+    ]
+  },
+  "scripts": {
+    "pretty": "prettier --write --tab-width 4 'src/**/*.js' 'test/**/*.js'",
+    "lint": "eslint src test",
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "test": "nwb test-react",
+    "travis": "npm run lint && npm run test",
+    "prepublish": "npm run lint && npm run test && npm run build"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  }
+}
