@@ -1,6 +1,8 @@
 react-combokeys [![Build Status](https://travis-ci.org/dashed/react-combokeys.svg)](https://travis-ci.org/dashed/react-combokeys) [![npm version](https://img.shields.io/npm/v/react-combokeys.svg?style=flat)](https://www.npmjs.com/package/react-combokeys)
 ===============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dashed/react-combokeys.svg)](https://greenkeeper.io/)
+
 > Bind to [keyboard shortcuts](https://en.wikipedia.org/wiki/Keyboard_shortcut) in React.
 
 **NOTE:** This React component library wraps [combokeys](https://github.com/avocode/combokeys) which is a fork of [mousetrap](https://github.com/ccampbell/mousetrap). `combokeys` handles the capturing of keyboard shortcuts/combos/keypresses.
