@@ -27,10 +27,30 @@ import ComboKeys from "react-combokeys";
 
 // function as child component
 
-// TBA
+ReactDOM.render(
+    <ComboKeys bind={["a", "command+shift+k"]} keyup="b" keydown="c">
+        {({ combo }) => {
+            return <div>{`Combo: ${combo || "none yet"}`}</div>;
+        }}
+    </ComboKeys>,
+    mountNode
+);
 
 // render prop
 
+const render = ({ combo }) => {
+    return <div>{`Combo: ${combo || "none yet"}`}</div>;
+};
+
+ReactDOM.render(
+    <ComboKeys
+        bind={["a", "command+shift+k"]}
+        keyup="b"
+        keydown="c"
+        render={render}
+    />,
+    mountNode
+);
 ```
 
 ## Props
