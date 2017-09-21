@@ -35,6 +35,37 @@ import ComboKeys from "react-combokeys";
 
 ## Props
 
+### `render` (optional)
+
+An optional function that is called whenever a keyboard shortcut/combo has been detected, or when internal state for tracking keyboard shortcut/combo has changed.
+
+ It's expected that `render` function returns a single React element.
+This has same API semantics as [`React.Component.render()`](https://facebook.github.io/react/docs/react-component.html#render).
+
+If `render` function is given, it has precedence over any given child component:
+
+```js
+// TODO: add example
+```
+
+
+### Function as child component (optional)
+
+Same semantics as `render` prop function (see above).
+
+If `render` function is not given, then the child component will be invoked as a function.
+
+```js
+// TODO: add example
+```
+
+### `onCombo` (optional)
+
+An optional function that is called whenever a keyboard shortcut/combo has been detected.
+
+The `onCombo` function is invoked with an object argument: `({ event, combo, action })`.
+
+
 Credits
 =======
 
