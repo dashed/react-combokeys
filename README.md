@@ -1,4 +1,4 @@
-react-combokeys
+react-combokeys [![Build Status](https://travis-ci.org/dashed/react-combokeys.svg)](https://travis-ci.org/dashed/react-combokeys) [![npm version](https://img.shields.io/npm/v/react-combokeys.svg?style=flat)](https://www.npmjs.com/package/react-combokeys)
 ===============
 
 > Bind to [keyboard shortcuts](https://en.wikipedia.org/wiki/Keyboard_shortcut) in React.
