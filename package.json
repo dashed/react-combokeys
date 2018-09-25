@@ -20,7 +20,7 @@
     "react": "15.x || ^16.0.0-rc"
   },
   "devDependencies": {
-    "babel-eslint": "^8.0.0",
+    "babel-eslint": "^10.0.0",
     "eslint": "^4.7.1",
     "eslint-plugin-react": "^7.3.0",
     "nwb": "^0.21.0",
