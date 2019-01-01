@@ -22,7 +22,7 @@
   "devDependencies": {
     "babel-eslint": "^8.0.0",
     "eslint": "^4.7.1",
-    "eslint-plugin-react": "^7.3.0",
+    "eslint-plugin-react": "^7.12.1",
     "nwb": "^0.21.0",
     "prettier": "^1.7.0",
     "react": "^16.0.0",
