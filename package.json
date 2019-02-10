@@ -63,7 +63,7 @@
   },
   "dependencies": {
     "combokeys": "^3.0.0",
-    "prop-types": "^15.5.10",
+    "prop-types": "15.6.2",
     "shallowequal": "^1.0.2"
   }
 }
